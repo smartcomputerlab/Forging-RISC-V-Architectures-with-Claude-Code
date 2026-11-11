@@ -1,4 +1,4 @@
-# From RV32I to Pipelined, Cached RV32IM: Eight Chisel Stages
+# From RV32I to Pipelined, Cached RV32IM: Eight Design Stages
 
 ## Overview
 
