@@ -15,9 +15,13 @@ The series has three parts:
 - **Part C, FreeRTOS on the board (5 projects):** the 5-stage core with a machine timer interrupt, 32 KiB of block
   RAM and a CLINT timer, running FreeRTOS applications written in C, on RV32IMA and on RV32IM.
 
-  <p align="center">
-  <img src="images/CL.projects.README.png" width="800" alt="RISC-V Development Roadmap">
-</p>
+# RISC-V Processor Development
+
+This project presents the progressive development of RISC-V processors.
+
+## Architecture Roadmap
+
+![RISC-V Development Roadmap](images/CL.projects.README.png)
 
 ```
  RV32I ─────────────────────► RV32IM ─────────────────────────────────────┬──────────► RV32IMF
