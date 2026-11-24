@@ -160,6 +160,9 @@ hazards and every design choice.
 
 ## Part B: bare-metal programs on the iCESugar-Pro
 
+
+![RISC-V Development Roadmap](images/CL.iCESugar.pro.png)
+
 ### 8. The bare-metal board system
 
 Every Part B project puts a core, **unchanged**, in the same small system, so a program written for one runs on the
