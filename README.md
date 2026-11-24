@@ -21,7 +21,7 @@ This project presents the progressive development of RISC-V processors.
 
 ## Architecture Roadmap
 
-![RISC-V Development Roadmap](images/CL.projects.README.png)
+![RISC-V Development Roadmap](images/CL.projects.README..png)
 
 ```
  RV32I ─────────────────────► RV32IM ─────────────────────────────────────┬──────────► RV32IMF
