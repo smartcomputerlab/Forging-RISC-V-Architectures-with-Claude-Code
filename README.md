@@ -23,24 +23,6 @@ This project presents the progressive development of RISC-V processors.
 
 ![RISC-V Development Roadmap](images/CL.projects.README..png)
 
-```
- RV32I ─────────────────────► RV32IM ─────────────────────────────────────┬──────────► RV32IMF
- Stage 1  Stage 2  Stage 3    Stage 4  Stage 5  Stage 6  Stage 7  Stage 8  │  Stage 9     Stage 10
- ALU      loads,   full       MUL      DIV      2-stage  5-stage  I/D      │  single-     5-stage
- only     JALR     RV32I +    (1 cyc)  (seq.)   pipeline pipeline caches   │  cycle + FPU + FPU
-                   Zicsr                                                   │
-                                                                           └──────────► RV32IMA
-                                                                              Stage 11: 5-stage + A extension
-    │                                     │        │                          │            │
-    ▼                                     ▼        ▼                          ▼            ▼
- Part B: echo,                        Part B:  Part B: 12!,            Part B: pi,   Part C: FreeRTOS
- software multiply                    GCD      exact n!                throw         (+ timer interrupt):
-                                                                       distance      blink, 3 tasks,
-                                                                                     colour cycle (IMA, IM),
-                                                                                     LED colour from the terminal (IM)
-```
-
----
 
 ## 1. Common ground
 
